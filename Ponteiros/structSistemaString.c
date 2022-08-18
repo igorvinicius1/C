@@ -41,7 +41,7 @@ void exclui(Pessoa p[], char n[], int cont, int c) //a variavel tem q passar com
         
         
     }
-    else if(c < 3)
+    else if(c < cont)
     {
         exclui(p,n,cont,c=c+1);
     }
