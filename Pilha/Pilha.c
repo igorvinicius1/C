@@ -119,6 +119,7 @@ int main()
                 {
                     printf("\nelemento removido !!!\n");
                     imprime(remover->p);
+                    free(remover);
                 }
                 else
                 {
