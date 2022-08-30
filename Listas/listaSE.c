@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// LISTA SIMPLESMENTE ENCADEADA
+
 typedef struct no
 {
     int valor;
